@@ -226,7 +226,7 @@ namespace dev
         &&EXTCODECOPY,                          \
         &&RETURNDATASIZE,                       \
         &&RETURNDATACOPY,                       \
-        &&EXTCODEHASH,                         \
+        &&EXTCODEHASH,                          \
         &&BLOCKHASH, /* 40, */                  \
         &&COINBASE,                             \
         &&TIMESTAMP,                            \
@@ -234,7 +234,7 @@ namespace dev
         &&DIFFICULTY,                           \
         &&GASLIMIT,                             \
         &&INVALID,                              \
-        &&INVALID,                              \
+        &&SELFBALANCE,                          \
         &&INVALID,                              \
         &&INVALID,                              \
         &&INVALID,                              \

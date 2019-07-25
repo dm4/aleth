@@ -75,12 +75,13 @@ enum class Instruction : uint8_t
     RETURNDATACOPY = 0x3e,  ///< copy data returned from previous call to memory
     EXTCODEHASH = 0x3f,     ///< get external code hash
 
-    BLOCKHASH = 0x40,  ///< get hash of most recent complete block
-    COINBASE,          ///< get the block's coinbase address
-    TIMESTAMP,         ///< get the block's timestamp
-    NUMBER,            ///< get the block's number
-    DIFFICULTY,        ///< get the block's difficulty
-    GASLIMIT,          ///< get the block's gas limit
+    BLOCKHASH = 0x40,    ///< get hash of most recent complete block
+    COINBASE,            ///< get the block's coinbase address
+    TIMESTAMP,           ///< get the block's timestamp
+    NUMBER,              ///< get the block's number
+    DIFFICULTY,          ///< get the block's difficulty
+    GASLIMIT,            ///< get the block's gas limit
+    SELFBALANCE = 0x47,  ///< get balance of the current address
 
     POP = 0x50,  ///< remove item from stack
     MLOAD,       ///< load word from memory
